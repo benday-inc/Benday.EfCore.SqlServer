@@ -53,7 +53,7 @@ namespace Benday.EfCore.SqlServer
         protected virtual List<string> Includes
         {
             get;
-        }
+        } = new List<string>();
 
         public virtual IList<TEntity> GetAll()
         {

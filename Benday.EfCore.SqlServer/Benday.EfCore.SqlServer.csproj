@@ -12,6 +12,7 @@
         <RepositoryUrl>https://github.com/benday-inc/Benday.EfCore.SqlServer.git</RepositoryUrl>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
         <Version>$(VersionPrefix)9.0.0-beta</Version>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup>
         <None Include="..\bdc_mark_128_128.png">
