@@ -24,7 +24,7 @@ namespace Benday.EfCore.SqlServer
         public virtual void Delete(TEntity deleteThis)
         {
             if (deleteThis == null)
-                throw new ArgumentNullException("deleteThis", "deleteThis is null.");
+                throw new ArgumentNullException(nameof(deleteThis), "deleteThis is null.");
 
             var entry = Context.Entry(deleteThis);
 

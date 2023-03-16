@@ -10,7 +10,7 @@ namespace Benday.EfCore.SqlServer
         protected SqlEntityFrameworkRepositoryBase(
             TDbContext context)
         {
-            _context = context ?? throw new ArgumentNullException("context", "context is null.");
+            Context = context ?? throw new ArgumentNullException(nameof(context), "context is null.");
         }
 
         public void Dispose()
@@ -27,15 +27,13 @@ namespace Benday.EfCore.SqlServer
             if (disposing)
             {
                 // free managed resources
-                ((IDisposable)_context).Dispose();
+                ((IDisposable)Context).Dispose();
             }
 
             _isDisposed = true;
         }
 
-        private readonly TDbContext _context;
-
-        protected TDbContext Context => _context;
+        protected TDbContext Context { get; }
 
         protected void VerifyItemIsAddedOrAttachedToDbSet(DbSet<TEntity> dbset, TEntity item)
         {
@@ -51,7 +49,7 @@ namespace Benday.EfCore.SqlServer
                 }
                 else
                 {
-                    var entry = _context.Entry<TEntity>(item);
+                    var entry = Context.Entry<TEntity>(item);
 
                     if (entry.State == EntityState.Detached)
                     {

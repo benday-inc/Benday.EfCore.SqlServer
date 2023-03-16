@@ -12,7 +12,7 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
     [TestClass]
     public class PersonSearchableRepositoryFixture
     {
-        private const string _ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;";
+        private const string ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;";
         
         [TestInitialize]
         public void OnTestInitialize()
@@ -568,7 +568,7 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
             
             optionsBuilder.UseLoggerFactory(GetLoggerFactory());
             optionsBuilder.EnableSensitiveDataLogging(true);
-            optionsBuilder.UseSqlServer(_ConnectionString);
+            optionsBuilder.UseSqlServer(ConnectionString);
             
             var context = new TestDbContext(optionsBuilder.Options);
             

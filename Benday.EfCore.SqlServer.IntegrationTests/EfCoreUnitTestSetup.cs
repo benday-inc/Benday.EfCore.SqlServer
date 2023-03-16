@@ -9,7 +9,7 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
     [TestClass]
     public static class EfCoreUnitTestSetup
     {
-        private static readonly string _ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;";
+        private static readonly string ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;";
         
         [AssemblyInitializeAttribute]
         #pragma warning disable IDE0060 // Remove unused parameter
@@ -37,7 +37,7 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
             
             optionsBuilder.UseLoggerFactory(GetLoggerFactory());
             optionsBuilder.EnableSensitiveDataLogging(true);
-            optionsBuilder.UseSqlServer(_ConnectionString);
+            optionsBuilder.UseSqlServer(ConnectionString);
             
             var context = new TestDbContext(optionsBuilder.Options);
             
