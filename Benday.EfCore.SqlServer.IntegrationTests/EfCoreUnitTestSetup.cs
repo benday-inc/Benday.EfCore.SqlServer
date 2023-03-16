@@ -1,4 +1,5 @@
 using Benday.EfCore.SqlServer.TestApi;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -10,16 +11,16 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
     public static class EfCoreUnitTestSetup
     {
         private static readonly string ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;TrustServerCertificate=True";
-        
+
         [AssemblyInitializeAttribute]
-        #pragma warning disable IDE0060 // Remove unused parameter
+#pragma warning disable IDE0060 // Remove unused parameter
         public static void OnAssemblyInitialize(TestContext testContext)
-            #pragma warning restore IDE0060 // Remove unused parameter
+#pragma warning restore IDE0060 // Remove unused parameter
         {
             using var dbcontext = GetDbContext();
             dbcontext.Database.EnsureCreated();
         }
-        
+
         private static ILoggerFactory GetLoggerFactory()
         {
             IServiceCollection serviceCollection = new ServiceCollection();
@@ -30,17 +31,17 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
             return serviceCollection.BuildServiceProvider()
                 .GetService<ILoggerFactory>();
         }
-        
+
         private static TestDbContext GetDbContext()
         {
             var optionsBuilder = new DbContextOptionsBuilder();
-            
+
             optionsBuilder.UseLoggerFactory(GetLoggerFactory());
             optionsBuilder.EnableSensitiveDataLogging(true);
             optionsBuilder.UseSqlServer(ConnectionString);
-            
+
             var context = new TestDbContext(optionsBuilder.Options);
-            
+
             return context;
         }
     }

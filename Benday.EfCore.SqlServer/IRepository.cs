@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+
 using Benday.Common;
 
 namespace Benday.EfCore.SqlServer
@@ -7,7 +8,7 @@ namespace Benday.EfCore.SqlServer
     {
         IList<T> GetAll();
         IList<T> GetAll(int maxNumberOfRows, bool noIncludes = true);
-        T GetById(int id);
+        T? GetById(int id);
         void Save(T saveThis);
         void Delete(T deleteThis);
     }

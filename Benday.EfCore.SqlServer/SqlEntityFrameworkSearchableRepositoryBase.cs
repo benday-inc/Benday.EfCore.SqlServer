@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+
 using Benday.Common;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Benday.EfCore.SqlServer
@@ -63,9 +65,9 @@ namespace Benday.EfCore.SqlServer
 
         protected virtual IOrderedQueryable<TEntity> EnsureIsOrderedQueryable(IQueryable<TEntity> query)
         {
-            if (query is IOrderedQueryable<TEntity>)
+            if (query is IOrderedQueryable<TEntity> queryable)
             {
-                return query as IOrderedQueryable<TEntity>;
+                return queryable;
             }
             else
             {
@@ -135,10 +137,10 @@ namespace Benday.EfCore.SqlServer
             }
         }
 
-        private Expression<Func<TEntity, bool>> GetWhereClause(Search search)
+        private Expression<Func<TEntity, bool>>? GetWhereClause(Search search)
         {
-            Expression<Func<TEntity, bool>> whereClausePredicate = null;
-            Expression<Func<TEntity, bool>> predicate = null;
+            Expression<Func<TEntity, bool>>? whereClausePredicate = null;
+            Expression<Func<TEntity, bool>>? predicate = null;
 
             foreach (var arg in search.Arguments)
             {

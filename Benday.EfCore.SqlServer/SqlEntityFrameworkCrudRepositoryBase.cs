@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Benday.EfCore.SqlServer
@@ -115,7 +116,7 @@ namespace Benday.EfCore.SqlServer
             }
         }
 
-        public virtual TEntity GetById(int id)
+        public virtual TEntity? GetById(int id)
         {
             var query = from temp in EntityDbSet
                         where temp.Id == id
@@ -137,7 +138,7 @@ namespace Benday.EfCore.SqlServer
         public virtual void Save(TEntity saveThis)
         {
             if (saveThis == null)
-                throw new ArgumentNullException("saveThis", "saveThis is null.");
+                throw new ArgumentNullException(nameof(saveThis), "saveThis is null.");
 
             VerifyItemIsAddedOrAttachedToDbSet(
                 EntityDbSet, saveThis);
