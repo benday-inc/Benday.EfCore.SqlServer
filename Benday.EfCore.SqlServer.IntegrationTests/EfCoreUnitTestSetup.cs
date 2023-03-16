@@ -9,7 +9,7 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
     [TestClass]
     public static class EfCoreUnitTestSetup
     {
-        private static readonly string ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;";
+        private static readonly string ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;TrustServerCertificate=True";
         
         [AssemblyInitializeAttribute]
         #pragma warning disable IDE0060 // Remove unused parameter

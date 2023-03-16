@@ -13,7 +13,7 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
     [TestClass]
     public class DirectlyAgainstDbContextFixture
     {
-        private readonly string _connectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;";
+        private readonly string _connectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word; TrustServerCertificate=True";
         
         [TestMethod]
         public void CreateSampleData()

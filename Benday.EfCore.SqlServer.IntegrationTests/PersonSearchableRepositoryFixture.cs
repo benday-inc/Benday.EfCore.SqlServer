@@ -12,7 +12,7 @@ namespace Benday.EfCore.SqlServer.IntegrationTests
     [TestClass]
     public class PersonSearchableRepositoryFixture
     {
-        private const string ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;";
+        private const string ConnectionString = "Server=localhost; Database=benday-efcore-sqlserver; User Id=sa; Password=Pa$$word;TrustServerCertificate=True";
         
         [TestInitialize]
         public void OnTestInitialize()
