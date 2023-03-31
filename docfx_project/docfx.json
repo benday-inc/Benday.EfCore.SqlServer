@@ -40,10 +40,14 @@
         "files": [
           "logo.svg",
           "logo.png",
+          "favicon.ico",
           "images/**"
         ]
       }
     ],
+    "globalMetadata": {
+      "_appFaviconPath": "favicon.ico"
+    },
     "overwrite": [
       {
         "files": [

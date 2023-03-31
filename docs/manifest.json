@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html",
-          "hash": "hXHw17aWySGXw7Aa4ssGeW6YeSORg/2sciFZFr3tVbg="
+          "hash": "Tw31fbDlt05tsgigaIwFe+UqBDOWAkj3sHXRQw98oA0="
         }
       },
       "version": ""
@@ -20,7 +20,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.IDependentEntityCollection.html",
-          "hash": "8CTzdb5Yih6R3zS1txbD8OigcZVXfK1B271nIoVmPIY="
+          "hash": "RsJMPn+/ljP1Yv8LYbm2dCTfG3cDj2kjXNQvxnvKHjM="
         }
       },
       "version": ""
@@ -31,7 +31,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.IEntityBase.html",
-          "hash": "yvDIzRl+Ibt9cgzG15MH/xdnXznlqR3LQw+EtpqmXoM="
+          "hash": "+EMQSPm3bydl+r1RuBJrhNckySrUEygD6Xx5xjADtBw="
         }
       },
       "version": ""
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.IRepository-1.html",
-          "hash": "EZBr8dCm24YB29Z/pln0Gp3DXoDjm1zoYckthO+Dplo="
+          "hash": "w+Hc6mbLZoxvPG7Bc++Z+5cqZqnYVlJpbKq2ohAu1E4="
         }
       },
       "version": ""
@@ -53,7 +53,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.ISearchableRepository-1.html",
-          "hash": "7+PWTzOTdzPu7tIhyS4Fll4SMBDUX4kePWbwwbGF8cI="
+          "hash": "6z6hPROlvZstYRbBcMxUVJ5UrNVM+bjwNrErXLQAzqI="
         }
       },
       "version": ""
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.LinqPredicateExtensions.html",
-          "hash": "k2KvdcMuFAHF42CfQ509jy7mtyO1/BWCmZdwr1OPdLQ="
+          "hash": "9N8F/avpe0fK3LLBg8SlC2o6baQl5D5htUTAsVsrkaU="
         }
       },
       "version": ""
@@ -75,7 +75,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html",
-          "hash": "pUSvNFDCCh40EOJ3L2So7VpzALu/imYrXYyBduB571A="
+          "hash": "tk7mvTj6tDDOIeZklX+ozLjp40GBXmGrtTpQ0rYHBe0="
         }
       },
       "version": ""
@@ -86,7 +86,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html",
-          "hash": "c+iV01WerX7SICQsQoVsYZP9HXLUDTzxoQZ4x06XVmM="
+          "hash": "KVnJgiKLA4ecwuxTJ8k7AvpCxXVUIsvm6Z44a2YpSmQ="
         }
       },
       "version": ""
@@ -97,7 +97,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html",
-          "hash": "KxV+VJO0BVFvJ1BIGH6Ttl9RSQnvZ6O9g2Qjqz/Ohm0="
+          "hash": "YYVDbSDOANt4R0BNeu0C5RctATAYceVSsCusczs9cRw="
         }
       },
       "version": ""
@@ -108,7 +108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html",
-          "hash": "ymu9q+lmjZPpE95bxiJU2hkKOS+NFKFhJ+W4Np1ne/Y="
+          "hash": "UrP04vxaUOVymErWDqYOxpKgkD5+4GnQILgzV21Rh9k="
         }
       },
       "version": ""
@@ -119,7 +119,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Benday.EfCore.SqlServer.html",
-          "hash": "VN56J9Y9iGqEQj+1b06eFGIOmvTl9PDeiDevL3lSuWw="
+          "hash": "KkOfoU4bNrXBWvT3jEmNfrI9PfcWzxWT9EkfppCPW6k="
         }
       },
       "version": ""
@@ -164,6 +164,16 @@
         ".html": {
           "relative_path": "articles/toc.html",
           "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
         }
       },
       "version": ""
