@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" content="0; url=https://benday-inc.github.io/Benday.EfCore.SqlServer/api/Benday.EfCore.SqlServer.html">

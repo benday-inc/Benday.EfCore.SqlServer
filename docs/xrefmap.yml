@@ -1,0 +1,947 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Benday.EfCore.SqlServer
+  name: Benday.EfCore.SqlServer
+  href: api/Benday.EfCore.SqlServer.html
+  commentId: N:Benday.EfCore.SqlServer
+  fullName: Benday.EfCore.SqlServer
+  nameWithType: Benday.EfCore.SqlServer
+- uid: Benday.EfCore.SqlServer.DependentEntityCollection`1
+  name: DependentEntityCollection<T>
+  href: api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html
+  commentId: T:Benday.EfCore.SqlServer.DependentEntityCollection`1
+  name.vb: DependentEntityCollection(Of T)
+  fullName: Benday.EfCore.SqlServer.DependentEntityCollection<T>
+  fullName.vb: Benday.EfCore.SqlServer.DependentEntityCollection(Of T)
+  nameWithType: DependentEntityCollection<T>
+  nameWithType.vb: DependentEntityCollection(Of T)
+- uid: Benday.EfCore.SqlServer.DependentEntityCollection`1.#ctor(System.Collections.Generic.IList{`0})
+  name: DependentEntityCollection(IList<T>)
+  href: api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html#Benday_EfCore_SqlServer_DependentEntityCollection_1__ctor_System_Collections_Generic_IList__0__
+  commentId: M:Benday.EfCore.SqlServer.DependentEntityCollection`1.#ctor(System.Collections.Generic.IList{`0})
+  name.vb: New(IList(Of T))
+  fullName: Benday.EfCore.SqlServer.DependentEntityCollection<T>.DependentEntityCollection(System.Collections.Generic.IList<T>)
+  fullName.vb: Benday.EfCore.SqlServer.DependentEntityCollection(Of T).New(System.Collections.Generic.IList(Of T))
+  nameWithType: DependentEntityCollection<T>.DependentEntityCollection(IList<T>)
+  nameWithType.vb: DependentEntityCollection(Of T).New(IList(Of T))
+- uid: Benday.EfCore.SqlServer.DependentEntityCollection`1.#ctor*
+  name: DependentEntityCollection
+  href: api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html#Benday_EfCore_SqlServer_DependentEntityCollection_1__ctor_
+  commentId: Overload:Benday.EfCore.SqlServer.DependentEntityCollection`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Benday.EfCore.SqlServer.DependentEntityCollection<T>.DependentEntityCollection
+  fullName.vb: Benday.EfCore.SqlServer.DependentEntityCollection(Of T).New
+  nameWithType: DependentEntityCollection<T>.DependentEntityCollection
+  nameWithType.vb: DependentEntityCollection(Of T).New
+- uid: Benday.EfCore.SqlServer.DependentEntityCollection`1.AfterSave
+  name: AfterSave()
+  href: api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html#Benday_EfCore_SqlServer_DependentEntityCollection_1_AfterSave
+  commentId: M:Benday.EfCore.SqlServer.DependentEntityCollection`1.AfterSave
+  fullName: Benday.EfCore.SqlServer.DependentEntityCollection<T>.AfterSave()
+  fullName.vb: Benday.EfCore.SqlServer.DependentEntityCollection(Of T).AfterSave()
+  nameWithType: DependentEntityCollection<T>.AfterSave()
+  nameWithType.vb: DependentEntityCollection(Of T).AfterSave()
+- uid: Benday.EfCore.SqlServer.DependentEntityCollection`1.AfterSave*
+  name: AfterSave
+  href: api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html#Benday_EfCore_SqlServer_DependentEntityCollection_1_AfterSave_
+  commentId: Overload:Benday.EfCore.SqlServer.DependentEntityCollection`1.AfterSave
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.DependentEntityCollection<T>.AfterSave
+  fullName.vb: Benday.EfCore.SqlServer.DependentEntityCollection(Of T).AfterSave
+  nameWithType: DependentEntityCollection<T>.AfterSave
+  nameWithType.vb: DependentEntityCollection(Of T).AfterSave
+- uid: Benday.EfCore.SqlServer.DependentEntityCollection`1.BeforeSave(Microsoft.EntityFrameworkCore.DbContext)
+  name: BeforeSave(DbContext)
+  href: api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html#Benday_EfCore_SqlServer_DependentEntityCollection_1_BeforeSave_Microsoft_EntityFrameworkCore_DbContext_
+  commentId: M:Benday.EfCore.SqlServer.DependentEntityCollection`1.BeforeSave(Microsoft.EntityFrameworkCore.DbContext)
+  fullName: Benday.EfCore.SqlServer.DependentEntityCollection<T>.BeforeSave(Microsoft.EntityFrameworkCore.DbContext)
+  fullName.vb: Benday.EfCore.SqlServer.DependentEntityCollection(Of T).BeforeSave(Microsoft.EntityFrameworkCore.DbContext)
+  nameWithType: DependentEntityCollection<T>.BeforeSave(DbContext)
+  nameWithType.vb: DependentEntityCollection(Of T).BeforeSave(DbContext)
+- uid: Benday.EfCore.SqlServer.DependentEntityCollection`1.BeforeSave*
+  name: BeforeSave
+  href: api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html#Benday_EfCore_SqlServer_DependentEntityCollection_1_BeforeSave_
+  commentId: Overload:Benday.EfCore.SqlServer.DependentEntityCollection`1.BeforeSave
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.DependentEntityCollection<T>.BeforeSave
+  fullName.vb: Benday.EfCore.SqlServer.DependentEntityCollection(Of T).BeforeSave
+  nameWithType: DependentEntityCollection<T>.BeforeSave
+  nameWithType.vb: DependentEntityCollection(Of T).BeforeSave
+- uid: Benday.EfCore.SqlServer.IDependentEntityCollection
+  name: IDependentEntityCollection
+  href: api/Benday.EfCore.SqlServer.IDependentEntityCollection.html
+  commentId: T:Benday.EfCore.SqlServer.IDependentEntityCollection
+  fullName: Benday.EfCore.SqlServer.IDependentEntityCollection
+  nameWithType: IDependentEntityCollection
+- uid: Benday.EfCore.SqlServer.IDependentEntityCollection.AfterSave
+  name: AfterSave()
+  href: api/Benday.EfCore.SqlServer.IDependentEntityCollection.html#Benday_EfCore_SqlServer_IDependentEntityCollection_AfterSave
+  commentId: M:Benday.EfCore.SqlServer.IDependentEntityCollection.AfterSave
+  fullName: Benday.EfCore.SqlServer.IDependentEntityCollection.AfterSave()
+  nameWithType: IDependentEntityCollection.AfterSave()
+- uid: Benday.EfCore.SqlServer.IDependentEntityCollection.AfterSave*
+  name: AfterSave
+  href: api/Benday.EfCore.SqlServer.IDependentEntityCollection.html#Benday_EfCore_SqlServer_IDependentEntityCollection_AfterSave_
+  commentId: Overload:Benday.EfCore.SqlServer.IDependentEntityCollection.AfterSave
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.IDependentEntityCollection.AfterSave
+  nameWithType: IDependentEntityCollection.AfterSave
+- uid: Benday.EfCore.SqlServer.IDependentEntityCollection.BeforeSave(Microsoft.EntityFrameworkCore.DbContext)
+  name: BeforeSave(DbContext)
+  href: api/Benday.EfCore.SqlServer.IDependentEntityCollection.html#Benday_EfCore_SqlServer_IDependentEntityCollection_BeforeSave_Microsoft_EntityFrameworkCore_DbContext_
+  commentId: M:Benday.EfCore.SqlServer.IDependentEntityCollection.BeforeSave(Microsoft.EntityFrameworkCore.DbContext)
+  fullName: Benday.EfCore.SqlServer.IDependentEntityCollection.BeforeSave(Microsoft.EntityFrameworkCore.DbContext)
+  nameWithType: IDependentEntityCollection.BeforeSave(DbContext)
+- uid: Benday.EfCore.SqlServer.IDependentEntityCollection.BeforeSave*
+  name: BeforeSave
+  href: api/Benday.EfCore.SqlServer.IDependentEntityCollection.html#Benday_EfCore_SqlServer_IDependentEntityCollection_BeforeSave_
+  commentId: Overload:Benday.EfCore.SqlServer.IDependentEntityCollection.BeforeSave
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.IDependentEntityCollection.BeforeSave
+  nameWithType: IDependentEntityCollection.BeforeSave
+- uid: Benday.EfCore.SqlServer.IEntityBase
+  name: IEntityBase
+  href: api/Benday.EfCore.SqlServer.IEntityBase.html
+  commentId: T:Benday.EfCore.SqlServer.IEntityBase
+  fullName: Benday.EfCore.SqlServer.IEntityBase
+  nameWithType: IEntityBase
+- uid: Benday.EfCore.SqlServer.IEntityBase.GetDependentEntities
+  name: GetDependentEntities()
+  href: api/Benday.EfCore.SqlServer.IEntityBase.html#Benday_EfCore_SqlServer_IEntityBase_GetDependentEntities
+  commentId: M:Benday.EfCore.SqlServer.IEntityBase.GetDependentEntities
+  fullName: Benday.EfCore.SqlServer.IEntityBase.GetDependentEntities()
+  nameWithType: IEntityBase.GetDependentEntities()
+- uid: Benday.EfCore.SqlServer.IEntityBase.GetDependentEntities*
+  name: GetDependentEntities
+  href: api/Benday.EfCore.SqlServer.IEntityBase.html#Benday_EfCore_SqlServer_IEntityBase_GetDependentEntities_
+  commentId: Overload:Benday.EfCore.SqlServer.IEntityBase.GetDependentEntities
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.IEntityBase.GetDependentEntities
+  nameWithType: IEntityBase.GetDependentEntities
+- uid: Benday.EfCore.SqlServer.IRepository`1
+  name: IRepository<T>
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html
+  commentId: T:Benday.EfCore.SqlServer.IRepository`1
+  name.vb: IRepository(Of T)
+  fullName: Benday.EfCore.SqlServer.IRepository<T>
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T)
+  nameWithType: IRepository<T>
+  nameWithType.vb: IRepository(Of T)
+- uid: Benday.EfCore.SqlServer.IRepository`1.Delete(`0)
+  name: Delete(T)
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_Delete__0_
+  commentId: M:Benday.EfCore.SqlServer.IRepository`1.Delete(`0)
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.Delete(T)
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).Delete(T)
+  nameWithType: IRepository<T>.Delete(T)
+  nameWithType.vb: IRepository(Of T).Delete(T)
+- uid: Benday.EfCore.SqlServer.IRepository`1.Delete*
+  name: Delete
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_Delete_
+  commentId: Overload:Benday.EfCore.SqlServer.IRepository`1.Delete
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.Delete
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).Delete
+  nameWithType: IRepository<T>.Delete
+  nameWithType.vb: IRepository(Of T).Delete
+- uid: Benday.EfCore.SqlServer.IRepository`1.GetAll
+  name: GetAll()
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_GetAll
+  commentId: M:Benday.EfCore.SqlServer.IRepository`1.GetAll
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.GetAll()
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).GetAll()
+  nameWithType: IRepository<T>.GetAll()
+  nameWithType.vb: IRepository(Of T).GetAll()
+- uid: Benday.EfCore.SqlServer.IRepository`1.GetAll(System.Int32,System.Boolean)
+  name: GetAll(int, bool)
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_GetAll_System_Int32_System_Boolean_
+  commentId: M:Benday.EfCore.SqlServer.IRepository`1.GetAll(System.Int32,System.Boolean)
+  name.vb: GetAll(Integer, Boolean)
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.GetAll(int, bool)
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).GetAll(Integer, Boolean)
+  nameWithType: IRepository<T>.GetAll(int, bool)
+  nameWithType.vb: IRepository(Of T).GetAll(Integer, Boolean)
+- uid: Benday.EfCore.SqlServer.IRepository`1.GetAll*
+  name: GetAll
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_GetAll_
+  commentId: Overload:Benday.EfCore.SqlServer.IRepository`1.GetAll
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.GetAll
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).GetAll
+  nameWithType: IRepository<T>.GetAll
+  nameWithType.vb: IRepository(Of T).GetAll
+- uid: Benday.EfCore.SqlServer.IRepository`1.GetById(System.Int32)
+  name: GetById(int)
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_GetById_System_Int32_
+  commentId: M:Benday.EfCore.SqlServer.IRepository`1.GetById(System.Int32)
+  name.vb: GetById(Integer)
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.GetById(int)
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).GetById(Integer)
+  nameWithType: IRepository<T>.GetById(int)
+  nameWithType.vb: IRepository(Of T).GetById(Integer)
+- uid: Benday.EfCore.SqlServer.IRepository`1.GetById*
+  name: GetById
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_GetById_
+  commentId: Overload:Benday.EfCore.SqlServer.IRepository`1.GetById
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.GetById
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).GetById
+  nameWithType: IRepository<T>.GetById
+  nameWithType.vb: IRepository(Of T).GetById
+- uid: Benday.EfCore.SqlServer.IRepository`1.Save(`0)
+  name: Save(T)
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_Save__0_
+  commentId: M:Benday.EfCore.SqlServer.IRepository`1.Save(`0)
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.Save(T)
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).Save(T)
+  nameWithType: IRepository<T>.Save(T)
+  nameWithType.vb: IRepository(Of T).Save(T)
+- uid: Benday.EfCore.SqlServer.IRepository`1.Save*
+  name: Save
+  href: api/Benday.EfCore.SqlServer.IRepository-1.html#Benday_EfCore_SqlServer_IRepository_1_Save_
+  commentId: Overload:Benday.EfCore.SqlServer.IRepository`1.Save
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.IRepository<T>.Save
+  fullName.vb: Benday.EfCore.SqlServer.IRepository(Of T).Save
+  nameWithType: IRepository<T>.Save
+  nameWithType.vb: IRepository(Of T).Save
+- uid: Benday.EfCore.SqlServer.ISearchableRepository`1
+  name: ISearchableRepository<T>
+  href: api/Benday.EfCore.SqlServer.ISearchableRepository-1.html
+  commentId: T:Benday.EfCore.SqlServer.ISearchableRepository`1
+  name.vb: ISearchableRepository(Of T)
+  fullName: Benday.EfCore.SqlServer.ISearchableRepository<T>
+  fullName.vb: Benday.EfCore.SqlServer.ISearchableRepository(Of T)
+  nameWithType: ISearchableRepository<T>
+  nameWithType.vb: ISearchableRepository(Of T)
+- uid: Benday.EfCore.SqlServer.ISearchableRepository`1.Search(Benday.Common.Search)
+  name: Search(Search)
+  href: api/Benday.EfCore.SqlServer.ISearchableRepository-1.html#Benday_EfCore_SqlServer_ISearchableRepository_1_Search_Benday_Common_Search_
+  commentId: M:Benday.EfCore.SqlServer.ISearchableRepository`1.Search(Benday.Common.Search)
+  fullName: Benday.EfCore.SqlServer.ISearchableRepository<T>.Search(Benday.Common.Search)
+  fullName.vb: Benday.EfCore.SqlServer.ISearchableRepository(Of T).Search(Benday.Common.Search)
+  nameWithType: ISearchableRepository<T>.Search(Search)
+  nameWithType.vb: ISearchableRepository(Of T).Search(Search)
+- uid: Benday.EfCore.SqlServer.ISearchableRepository`1.Search*
+  name: Search
+  href: api/Benday.EfCore.SqlServer.ISearchableRepository-1.html#Benday_EfCore_SqlServer_ISearchableRepository_1_Search_
+  commentId: Overload:Benday.EfCore.SqlServer.ISearchableRepository`1.Search
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.ISearchableRepository<T>.Search
+  fullName.vb: Benday.EfCore.SqlServer.ISearchableRepository(Of T).Search
+  nameWithType: ISearchableRepository<T>.Search
+  nameWithType.vb: ISearchableRepository(Of T).Search
+- uid: Benday.EfCore.SqlServer.LinqPredicateExtensions
+  name: LinqPredicateExtensions
+  href: api/Benday.EfCore.SqlServer.LinqPredicateExtensions.html
+  commentId: T:Benday.EfCore.SqlServer.LinqPredicateExtensions
+  fullName: Benday.EfCore.SqlServer.LinqPredicateExtensions
+  nameWithType: LinqPredicateExtensions
+- uid: Benday.EfCore.SqlServer.LinqPredicateExtensions.And*
+  name: And
+  href: api/Benday.EfCore.SqlServer.LinqPredicateExtensions.html#Benday_EfCore_SqlServer_LinqPredicateExtensions_And_
+  commentId: Overload:Benday.EfCore.SqlServer.LinqPredicateExtensions.And
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.LinqPredicateExtensions.And
+  nameWithType: LinqPredicateExtensions.And
+- uid: Benday.EfCore.SqlServer.LinqPredicateExtensions.And``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name: And<T>(Expression<Func<T, bool>>, Expression<Func<T, bool>>)
+  href: api/Benday.EfCore.SqlServer.LinqPredicateExtensions.html#Benday_EfCore_SqlServer_LinqPredicateExtensions_And__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
+  commentId: M:Benday.EfCore.SqlServer.LinqPredicateExtensions.And``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name.vb: And(Of T)(Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Boolean)))
+  fullName: Benday.EfCore.SqlServer.LinqPredicateExtensions.And<T>(System.Linq.Expressions.Expression<System.Func<T, bool>>, System.Linq.Expressions.Expression<System.Func<T, bool>>)
+  fullName.vb: Benday.EfCore.SqlServer.LinqPredicateExtensions.And(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)), System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  nameWithType: LinqPredicateExtensions.And<T>(Expression<Func<T, bool>>, Expression<Func<T, bool>>)
+  nameWithType.vb: LinqPredicateExtensions.And(Of T)(Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Boolean)))
+- uid: Benday.EfCore.SqlServer.LinqPredicateExtensions.Or*
+  name: Or
+  href: api/Benday.EfCore.SqlServer.LinqPredicateExtensions.html#Benday_EfCore_SqlServer_LinqPredicateExtensions_Or_
+  commentId: Overload:Benday.EfCore.SqlServer.LinqPredicateExtensions.Or
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.LinqPredicateExtensions.Or
+  nameWithType: LinqPredicateExtensions.Or
+- uid: Benday.EfCore.SqlServer.LinqPredicateExtensions.Or``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name: Or<T>(Expression<Func<T, bool>>, Expression<Func<T, bool>>)
+  href: api/Benday.EfCore.SqlServer.LinqPredicateExtensions.html#Benday_EfCore_SqlServer_LinqPredicateExtensions_Or__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
+  commentId: M:Benday.EfCore.SqlServer.LinqPredicateExtensions.Or``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name.vb: Or(Of T)(Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Boolean)))
+  fullName: Benday.EfCore.SqlServer.LinqPredicateExtensions.Or<T>(System.Linq.Expressions.Expression<System.Func<T, bool>>, System.Linq.Expressions.Expression<System.Func<T, bool>>)
+  fullName.vb: Benday.EfCore.SqlServer.LinqPredicateExtensions.Or(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)), System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  nameWithType: LinqPredicateExtensions.Or<T>(Expression<Func<T, bool>>, Expression<Func<T, bool>>)
+  nameWithType.vb: LinqPredicateExtensions.Or(Of T)(Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Boolean)))
+- uid: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor
+  name: ParameterSubstitutionVisitor
+  href: api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html
+  commentId: T:Benday.EfCore.SqlServer.ParameterSubstitutionVisitor
+  fullName: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor
+  nameWithType: ParameterSubstitutionVisitor
+- uid: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.#ctor
+  name: ParameterSubstitutionVisitor()
+  href: api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html#Benday_EfCore_SqlServer_ParameterSubstitutionVisitor__ctor
+  commentId: M:Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.#ctor
+  name.vb: New()
+  fullName: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.ParameterSubstitutionVisitor()
+  fullName.vb: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.New()
+  nameWithType: ParameterSubstitutionVisitor.ParameterSubstitutionVisitor()
+  nameWithType.vb: ParameterSubstitutionVisitor.New()
+- uid: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.#ctor*
+  name: ParameterSubstitutionVisitor
+  href: api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html#Benday_EfCore_SqlServer_ParameterSubstitutionVisitor__ctor_
+  commentId: Overload:Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.ParameterSubstitutionVisitor
+  fullName.vb: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.New
+  nameWithType: ParameterSubstitutionVisitor.ParameterSubstitutionVisitor
+  nameWithType.vb: ParameterSubstitutionVisitor.New
+- uid: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.Substitutions
+  name: Substitutions
+  href: api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html#Benday_EfCore_SqlServer_ParameterSubstitutionVisitor_Substitutions
+  commentId: P:Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.Substitutions
+  fullName: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.Substitutions
+  nameWithType: ParameterSubstitutionVisitor.Substitutions
+- uid: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.Substitutions*
+  name: Substitutions
+  href: api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html#Benday_EfCore_SqlServer_ParameterSubstitutionVisitor_Substitutions_
+  commentId: Overload:Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.Substitutions
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.Substitutions
+  nameWithType: ParameterSubstitutionVisitor.Substitutions
+- uid: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.VisitParameter(System.Linq.Expressions.ParameterExpression)
+  name: VisitParameter(ParameterExpression)
+  href: api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html#Benday_EfCore_SqlServer_ParameterSubstitutionVisitor_VisitParameter_System_Linq_Expressions_ParameterExpression_
+  commentId: M:Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.VisitParameter(System.Linq.Expressions.ParameterExpression)
+  fullName: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.VisitParameter(System.Linq.Expressions.ParameterExpression)
+  nameWithType: ParameterSubstitutionVisitor.VisitParameter(ParameterExpression)
+- uid: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.VisitParameter*
+  name: VisitParameter
+  href: api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html#Benday_EfCore_SqlServer_ParameterSubstitutionVisitor_VisitParameter_
+  commentId: Overload:Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.VisitParameter
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.VisitParameter
+  nameWithType: ParameterSubstitutionVisitor.VisitParameter
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2
+  name: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html
+  commentId: T:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2
+  name.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.#ctor(`1)
+  name: SqlEntityFrameworkCrudRepositoryBase(TDbContext)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2__ctor__1_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.#ctor(`1)
+  name.vb: New(TDbContext)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkCrudRepositoryBase(TDbContext)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).New(TDbContext)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkCrudRepositoryBase(TDbContext)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).New(TDbContext)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.#ctor*
+  name: SqlEntityFrameworkCrudRepositoryBase
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2__ctor_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkCrudRepositoryBase
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).New
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkCrudRepositoryBase
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).New
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AddDefaultSort(System.Linq.IQueryable{`0})
+  name: AddDefaultSort(IQueryable<TEntity>)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_AddDefaultSort_System_Linq_IQueryable__0__
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AddDefaultSort(System.Linq.IQueryable{`0})
+  name.vb: AddDefaultSort(IQueryable(Of TEntity))
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AddDefaultSort(System.Linq.IQueryable<TEntity>)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AddDefaultSort(System.Linq.IQueryable(Of TEntity))
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AddDefaultSort(IQueryable<TEntity>)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AddDefaultSort(IQueryable(Of TEntity))
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AddDefaultSort*
+  name: AddDefaultSort
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_AddDefaultSort_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AddDefaultSort
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AddDefaultSort
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AddDefaultSort
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AddDefaultSort
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AddDefaultSort
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AddIncludes(System.Linq.IQueryable{`0})
+  name: AddIncludes(IQueryable<TEntity>)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_AddIncludes_System_Linq_IQueryable__0__
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AddIncludes(System.Linq.IQueryable{`0})
+  name.vb: AddIncludes(IQueryable(Of TEntity))
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AddIncludes(System.Linq.IQueryable<TEntity>)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AddIncludes(System.Linq.IQueryable(Of TEntity))
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AddIncludes(IQueryable<TEntity>)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AddIncludes(IQueryable(Of TEntity))
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AddIncludes*
+  name: AddIncludes
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_AddIncludes_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AddIncludes
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AddIncludes
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AddIncludes
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AddIncludes
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AddIncludes
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AfterDelete(`0)
+  name: AfterDelete(TEntity)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_AfterDelete__0_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AfterDelete(`0)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AfterDelete(TEntity)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AfterDelete(TEntity)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AfterDelete(TEntity)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AfterDelete(TEntity)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AfterDelete*
+  name: AfterDelete
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_AfterDelete_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AfterDelete
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AfterDelete
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AfterDelete
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AfterDelete
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AfterDelete
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AfterSave(`0)
+  name: AfterSave(TEntity)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_AfterSave__0_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AfterSave(`0)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AfterSave(TEntity)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AfterSave(TEntity)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AfterSave(TEntity)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AfterSave(TEntity)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AfterSave*
+  name: AfterSave
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_AfterSave_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.AfterSave
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AfterSave
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AfterSave
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.AfterSave
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).AfterSave
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeDelete(`0)
+  name: BeforeDelete(TEntity)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_BeforeDelete__0_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeDelete(`0)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeDelete(TEntity)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeDelete(TEntity)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeDelete(TEntity)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeDelete(TEntity)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeDelete*
+  name: BeforeDelete
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_BeforeDelete_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeDelete
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeDelete
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeDelete
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeDelete
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeDelete
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeGetAll(System.Linq.IQueryable{`0})
+  name: BeforeGetAll(IQueryable<TEntity>)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_BeforeGetAll_System_Linq_IQueryable__0__
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeGetAll(System.Linq.IQueryable{`0})
+  name.vb: BeforeGetAll(IQueryable(Of TEntity))
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeGetAll(System.Linq.IQueryable<TEntity>)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeGetAll(System.Linq.IQueryable(Of TEntity))
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeGetAll(IQueryable<TEntity>)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeGetAll(IQueryable(Of TEntity))
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeGetAll*
+  name: BeforeGetAll
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_BeforeGetAll_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeGetAll
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeGetAll
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeGetAll
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeGetAll
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeGetAll
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeSave(`0)
+  name: BeforeSave(TEntity)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_BeforeSave__0_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeSave(`0)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeSave(TEntity)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeSave(TEntity)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeSave(TEntity)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeSave(TEntity)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeSave*
+  name: BeforeSave
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_BeforeSave_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeSave
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeSave
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeSave
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeSave
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeSave
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeSaveOnDependentEntities(`0)
+  name: BeforeSaveOnDependentEntities(TEntity)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_BeforeSaveOnDependentEntities__0_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeSaveOnDependentEntities(`0)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeSaveOnDependentEntities(TEntity)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeSaveOnDependentEntities(TEntity)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeSaveOnDependentEntities(TEntity)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeSaveOnDependentEntities(TEntity)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeSaveOnDependentEntities*
+  name: BeforeSaveOnDependentEntities
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_BeforeSaveOnDependentEntities_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.BeforeSaveOnDependentEntities
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeSaveOnDependentEntities
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeSaveOnDependentEntities
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.BeforeSaveOnDependentEntities
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).BeforeSaveOnDependentEntities
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Delete(`0)
+  name: Delete(TEntity)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_Delete__0_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Delete(`0)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Delete(TEntity)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Delete(TEntity)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Delete(TEntity)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Delete(TEntity)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Delete*
+  name: Delete
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_Delete_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Delete
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Delete
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Delete
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Delete
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Delete
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.EntityDbSet
+  name: EntityDbSet
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_EntityDbSet
+  commentId: P:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.EntityDbSet
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.EntityDbSet
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).EntityDbSet
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.EntityDbSet
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).EntityDbSet
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.EntityDbSet*
+  name: EntityDbSet
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_EntityDbSet_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.EntityDbSet
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.EntityDbSet
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).EntityDbSet
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.EntityDbSet
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).EntityDbSet
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetAll
+  name: GetAll()
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_GetAll
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetAll
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetAll()
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetAll()
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetAll()
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetAll()
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetAll(System.Int32,System.Boolean)
+  name: GetAll(int, bool)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_GetAll_System_Int32_System_Boolean_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetAll(System.Int32,System.Boolean)
+  name.vb: GetAll(Integer, Boolean)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetAll(int, bool)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetAll(Integer, Boolean)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetAll(int, bool)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetAll(Integer, Boolean)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetAll*
+  name: GetAll
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_GetAll_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetAll
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetAll
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetAll
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetAll
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetAll
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetById(System.Int32)
+  name: GetById(int)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_GetById_System_Int32_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetById(System.Int32)
+  name.vb: GetById(Integer)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetById(int)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetById(Integer)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetById(int)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetById(Integer)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetById*
+  name: GetById
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_GetById_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.GetById
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetById
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetById
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.GetById
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).GetById
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Includes
+  name: Includes
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_Includes
+  commentId: P:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Includes
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Includes
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Includes
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Includes
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Includes
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Includes*
+  name: Includes
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_Includes_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Includes
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Includes
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Includes
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Includes
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Includes
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Save(`0)
+  name: Save(TEntity)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_Save__0_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Save(`0)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Save(TEntity)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Save(TEntity)
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Save(TEntity)
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Save(TEntity)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Save*
+  name: Save
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkCrudRepositoryBase_2_Save_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase`2.Save
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Save
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Save
+  nameWithType: SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>.Save
+  nameWithType.vb: SqlEntityFrameworkCrudRepositoryBase(Of TEntity, TDbContext).Save
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2
+  name: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html
+  commentId: T:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2
+  name.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext)
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.#ctor(`1)
+  name: SqlEntityFrameworkRepositoryBase(TDbContext)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2__ctor__1_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.#ctor(`1)
+  name.vb: New(TDbContext)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkRepositoryBase(TDbContext)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).New(TDbContext)
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkRepositoryBase(TDbContext)
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).New(TDbContext)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.#ctor*
+  name: SqlEntityFrameworkRepositoryBase
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2__ctor_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkRepositoryBase
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).New
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkRepositoryBase
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).New
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Context
+  name: Context
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2_Context
+  commentId: P:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Context
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Context
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Context
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Context
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Context
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Context*
+  name: Context
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2_Context_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Context
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Context
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Context
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Context
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Context
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Dispose
+  name: Dispose()
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2_Dispose
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Dispose
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Dispose()
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Dispose()
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Dispose()
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Dispose()
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2_Dispose_System_Boolean_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Dispose(bool)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Dispose(Boolean)
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Dispose(bool)
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Dispose(Boolean)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Dispose*
+  name: Dispose
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2_Dispose_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.Dispose
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Dispose
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Dispose
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.Dispose
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).Dispose
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.VerifyItemIsAddedOrAttachedToDbSet(Microsoft.EntityFrameworkCore.DbSet{`0},`0)
+  name: VerifyItemIsAddedOrAttachedToDbSet(DbSet<TEntity>, TEntity)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2_VerifyItemIsAddedOrAttachedToDbSet_Microsoft_EntityFrameworkCore_DbSet__0___0_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.VerifyItemIsAddedOrAttachedToDbSet(Microsoft.EntityFrameworkCore.DbSet{`0},`0)
+  name.vb: VerifyItemIsAddedOrAttachedToDbSet(DbSet(Of TEntity), TEntity)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.VerifyItemIsAddedOrAttachedToDbSet(Microsoft.EntityFrameworkCore.DbSet<TEntity>, TEntity)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).VerifyItemIsAddedOrAttachedToDbSet(Microsoft.EntityFrameworkCore.DbSet(Of TEntity), TEntity)
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.VerifyItemIsAddedOrAttachedToDbSet(DbSet<TEntity>, TEntity)
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).VerifyItemIsAddedOrAttachedToDbSet(DbSet(Of TEntity), TEntity)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.VerifyItemIsAddedOrAttachedToDbSet*
+  name: VerifyItemIsAddedOrAttachedToDbSet
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkRepositoryBase_2_VerifyItemIsAddedOrAttachedToDbSet_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase`2.VerifyItemIsAddedOrAttachedToDbSet
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.VerifyItemIsAddedOrAttachedToDbSet
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).VerifyItemIsAddedOrAttachedToDbSet
+  nameWithType: SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>.VerifyItemIsAddedOrAttachedToDbSet
+  nameWithType.vb: SqlEntityFrameworkRepositoryBase(Of TEntity, TDbContext).VerifyItemIsAddedOrAttachedToDbSet
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2
+  name: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html
+  commentId: T:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2
+  name.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.#ctor(`1)
+  name: SqlEntityFrameworkSearchableRepositoryBase(TDbContext)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2__ctor__1_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.#ctor(`1)
+  name.vb: New(TDbContext)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkSearchableRepositoryBase(TDbContext)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).New(TDbContext)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkSearchableRepositoryBase(TDbContext)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).New(TDbContext)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.#ctor*
+  name: SqlEntityFrameworkSearchableRepositoryBase
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2__ctor_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkSearchableRepositoryBase
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).New
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.SqlEntityFrameworkSearchableRepositoryBase
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).New
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSort(System.Linq.IOrderedQueryable{`0},Benday.Common.SortBy,System.Boolean)
+  name: AddSort(IOrderedQueryable<TEntity>, SortBy, bool)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_AddSort_System_Linq_IOrderedQueryable__0__Benday_Common_SortBy_System_Boolean_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSort(System.Linq.IOrderedQueryable{`0},Benday.Common.SortBy,System.Boolean)
+  name.vb: AddSort(IOrderedQueryable(Of TEntity), SortBy, Boolean)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSort(System.Linq.IOrderedQueryable<TEntity>, Benday.Common.SortBy, bool)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSort(System.Linq.IOrderedQueryable(Of TEntity), Benday.Common.SortBy, Boolean)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSort(IOrderedQueryable<TEntity>, SortBy, bool)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSort(IOrderedQueryable(Of TEntity), SortBy, Boolean)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSort*
+  name: AddSort
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_AddSort_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSort
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSort
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSort
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSort
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSort
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSortAscending(System.Linq.IOrderedQueryable{`0},System.String,System.Boolean)
+  name: AddSortAscending(IOrderedQueryable<TEntity>, string, bool)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_AddSortAscending_System_Linq_IOrderedQueryable__0__System_String_System_Boolean_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSortAscending(System.Linq.IOrderedQueryable{`0},System.String,System.Boolean)
+  name.vb: AddSortAscending(IOrderedQueryable(Of TEntity), String, Boolean)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSortAscending(System.Linq.IOrderedQueryable<TEntity>, string, bool)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSortAscending(System.Linq.IOrderedQueryable(Of TEntity), String, Boolean)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSortAscending(IOrderedQueryable<TEntity>, string, bool)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSortAscending(IOrderedQueryable(Of TEntity), String, Boolean)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSortAscending*
+  name: AddSortAscending
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_AddSortAscending_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSortAscending
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSortAscending
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSortAscending
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSortAscending
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSortAscending
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSortDescending(System.Linq.IOrderedQueryable{`0},System.String,System.Boolean)
+  name: AddSortDescending(IOrderedQueryable<TEntity>, string, bool)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_AddSortDescending_System_Linq_IOrderedQueryable__0__System_String_System_Boolean_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSortDescending(System.Linq.IOrderedQueryable{`0},System.String,System.Boolean)
+  name.vb: AddSortDescending(IOrderedQueryable(Of TEntity), String, Boolean)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSortDescending(System.Linq.IOrderedQueryable<TEntity>, string, bool)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSortDescending(System.Linq.IOrderedQueryable(Of TEntity), String, Boolean)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSortDescending(IOrderedQueryable<TEntity>, string, bool)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSortDescending(IOrderedQueryable(Of TEntity), String, Boolean)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSortDescending*
+  name: AddSortDescending
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_AddSortDescending_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSortDescending
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSortDescending
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSortDescending
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSortDescending
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSortDescending
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSorts(Benday.Common.Search,System.Linq.IQueryable{`0})
+  name: AddSorts(Search, IQueryable<TEntity>)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_AddSorts_Benday_Common_Search_System_Linq_IQueryable__0__
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSorts(Benday.Common.Search,System.Linq.IQueryable{`0})
+  name.vb: AddSorts(Search, IQueryable(Of TEntity))
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSorts(Benday.Common.Search, System.Linq.IQueryable<TEntity>)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSorts(Benday.Common.Search, System.Linq.IQueryable(Of TEntity))
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSorts(Search, IQueryable<TEntity>)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSorts(Search, IQueryable(Of TEntity))
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSorts*
+  name: AddSorts
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_AddSorts_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.AddSorts
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSorts
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSorts
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.AddSorts
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).AddSorts
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.BeforeSearch(System.Linq.IQueryable{`0},Benday.Common.Search)
+  name: BeforeSearch(IQueryable<TEntity>, Search)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_BeforeSearch_System_Linq_IQueryable__0__Benday_Common_Search_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.BeforeSearch(System.Linq.IQueryable{`0},Benday.Common.Search)
+  name.vb: BeforeSearch(IQueryable(Of TEntity), Search)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.BeforeSearch(System.Linq.IQueryable<TEntity>, Benday.Common.Search)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).BeforeSearch(System.Linq.IQueryable(Of TEntity), Benday.Common.Search)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.BeforeSearch(IQueryable<TEntity>, Search)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).BeforeSearch(IQueryable(Of TEntity), Search)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.BeforeSearch*
+  name: BeforeSearch
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_BeforeSearch_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.BeforeSearch
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.BeforeSearch
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).BeforeSearch
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.BeforeSearch
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).BeforeSearch
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.EnsureIsOrderedQueryable(System.Linq.IQueryable{`0})
+  name: EnsureIsOrderedQueryable(IQueryable<TEntity>)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_EnsureIsOrderedQueryable_System_Linq_IQueryable__0__
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.EnsureIsOrderedQueryable(System.Linq.IQueryable{`0})
+  name.vb: EnsureIsOrderedQueryable(IQueryable(Of TEntity))
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.EnsureIsOrderedQueryable(System.Linq.IQueryable<TEntity>)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).EnsureIsOrderedQueryable(System.Linq.IQueryable(Of TEntity))
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.EnsureIsOrderedQueryable(IQueryable<TEntity>)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).EnsureIsOrderedQueryable(IQueryable(Of TEntity))
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.EnsureIsOrderedQueryable*
+  name: EnsureIsOrderedQueryable
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_EnsureIsOrderedQueryable_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.EnsureIsOrderedQueryable
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.EnsureIsOrderedQueryable
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).EnsureIsOrderedQueryable
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.EnsureIsOrderedQueryable
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).EnsureIsOrderedQueryable
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForContains(Benday.Common.SearchArgument)
+  name: GetPredicateForContains(SearchArgument)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForContains_Benday_Common_SearchArgument_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForContains(Benday.Common.SearchArgument)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForContains(Benday.Common.SearchArgument)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForContains(Benday.Common.SearchArgument)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForContains(SearchArgument)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForContains(SearchArgument)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForContains*
+  name: GetPredicateForContains
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForContains_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForContains
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForContains
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForContains
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForContains
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForContains
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForDoesNotContain(Benday.Common.SearchArgument)
+  name: GetPredicateForDoesNotContain(SearchArgument)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForDoesNotContain_Benday_Common_SearchArgument_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForDoesNotContain(Benday.Common.SearchArgument)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForDoesNotContain(Benday.Common.SearchArgument)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForDoesNotContain(Benday.Common.SearchArgument)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForDoesNotContain(SearchArgument)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForDoesNotContain(SearchArgument)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForDoesNotContain*
+  name: GetPredicateForDoesNotContain
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForDoesNotContain_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForDoesNotContain
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForDoesNotContain
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForDoesNotContain
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForDoesNotContain
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForDoesNotContain
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForEndsWith(Benday.Common.SearchArgument)
+  name: GetPredicateForEndsWith(SearchArgument)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForEndsWith_Benday_Common_SearchArgument_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForEndsWith(Benday.Common.SearchArgument)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForEndsWith(Benday.Common.SearchArgument)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForEndsWith(Benday.Common.SearchArgument)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForEndsWith(SearchArgument)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForEndsWith(SearchArgument)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForEndsWith*
+  name: GetPredicateForEndsWith
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForEndsWith_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForEndsWith
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForEndsWith
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForEndsWith
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForEndsWith
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForEndsWith
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForEquals(Benday.Common.SearchArgument)
+  name: GetPredicateForEquals(SearchArgument)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForEquals_Benday_Common_SearchArgument_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForEquals(Benday.Common.SearchArgument)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForEquals(Benday.Common.SearchArgument)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForEquals(Benday.Common.SearchArgument)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForEquals(SearchArgument)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForEquals(SearchArgument)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForEquals*
+  name: GetPredicateForEquals
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForEquals_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForEquals
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForEquals
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForEquals
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForEquals
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForEquals
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForIsNotEqualTo(Benday.Common.SearchArgument)
+  name: GetPredicateForIsNotEqualTo(SearchArgument)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForIsNotEqualTo_Benday_Common_SearchArgument_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForIsNotEqualTo(Benday.Common.SearchArgument)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForIsNotEqualTo(Benday.Common.SearchArgument)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForIsNotEqualTo(Benday.Common.SearchArgument)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForIsNotEqualTo(SearchArgument)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForIsNotEqualTo(SearchArgument)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForIsNotEqualTo*
+  name: GetPredicateForIsNotEqualTo
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForIsNotEqualTo_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForIsNotEqualTo
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForIsNotEqualTo
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForIsNotEqualTo
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForIsNotEqualTo
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForIsNotEqualTo
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForStartsWith(Benday.Common.SearchArgument)
+  name: GetPredicateForStartsWith(SearchArgument)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForStartsWith_Benday_Common_SearchArgument_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForStartsWith(Benday.Common.SearchArgument)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForStartsWith(Benday.Common.SearchArgument)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForStartsWith(Benday.Common.SearchArgument)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForStartsWith(SearchArgument)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForStartsWith(SearchArgument)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForStartsWith*
+  name: GetPredicateForStartsWith
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_GetPredicateForStartsWith_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.GetPredicateForStartsWith
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForStartsWith
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForStartsWith
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.GetPredicateForStartsWith
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).GetPredicateForStartsWith
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.Search(Benday.Common.Search)
+  name: Search(Search)
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_Search_Benday_Common_Search_
+  commentId: M:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.Search(Benday.Common.Search)
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.Search(Benday.Common.Search)
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).Search(Benday.Common.Search)
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.Search(Search)
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).Search(Search)
+- uid: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.Search*
+  name: Search
+  href: api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html#Benday_EfCore_SqlServer_SqlEntityFrameworkSearchableRepositoryBase_2_Search_
+  commentId: Overload:Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase`2.Search
+  isSpec: "True"
+  fullName: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.Search
+  fullName.vb: Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).Search
+  nameWithType: SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext>.Search
+  nameWithType.vb: SqlEntityFrameworkSearchableRepositoryBase(Of TEntity, TDbContext).Search

@@ -9,16 +9,31 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Benday.EfCore.SqlServer
 {
+    /// <summary>
+    /// Base class implementation of the repository pattern for an EF Core entity data type stored in SQL Server that 
+    /// supports searching using Benday.Common.Search functionality.
+    /// </summary>
+    /// <typeparam name="TEntity">Entity data type managed by this repository implementation. Must be an instance of IInt32Identity.</typeparam>
+    /// <typeparam name="TDbContext">EF Core DbContext data type that manages this entity</typeparam>
     public abstract class SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext> :
         SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>, ISearchableRepository<TEntity>
         where TEntity : class, IEntityBase
         where TDbContext : DbContext
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="context">EF Core DbContext to wrap</param>
         public SqlEntityFrameworkSearchableRepositoryBase(
             TDbContext context) : base(context)
         {
         }
 
+        /// <summary>
+        /// Execute a search for this entity type and return the matching result.
+        /// </summary>
+        /// <param name="search">Search definition with arguments, search operation methods, and sorting information</param>
+        /// <returns>The result of the search</returns>
         public virtual SearchResult<TEntity> Search(Search search)
         {
             var returnValue = new SearchResult<TEntity>
@@ -63,6 +78,11 @@ namespace Benday.EfCore.SqlServer
             return returnValue;
         }
 
+        /// <summary>
+        /// Takes the available query instance and makes sure that it's IOrderedQueryable
+        /// </summary>
+        /// <param name="query">The original query</param>
+        /// <returns>The original instance or a new wrapped instance of that query as IOrderedQueryable</returns>
         protected virtual IOrderedQueryable<TEntity> EnsureIsOrderedQueryable(IQueryable<TEntity> query)
         {
             if (query is IOrderedQueryable<TEntity> queryable)
@@ -75,6 +95,13 @@ namespace Benday.EfCore.SqlServer
             }
         }
 
+        /// <summary>
+        /// Adds a sort directive to the query
+        /// </summary>
+        /// <param name="query">Query instance</param>
+        /// <param name="sort">Sort information</param>
+        /// <param name="isFirstSort">Is this the first sort call to be added?</param>
+        /// <returns></returns>
         protected virtual IOrderedQueryable<TEntity> AddSort(IOrderedQueryable<TEntity> query, SortBy sort, bool isFirstSort)
         {
             if (sort.Direction == SearchConstants.SortDirectionAscending)
@@ -87,9 +114,31 @@ namespace Benday.EfCore.SqlServer
             }
         }
 
+        /// <summary>
+        /// Abstract method for adding a descending sort to a repository search query
+        /// </summary>
+        /// <param name="query">The query instance</param>
+        /// <param name="propertyName">Property name to add</param>
+        /// <param name="isFirstSort">Is this the first sort call to be added?</param>
+        /// <returns>The updated query</returns>
         protected abstract IOrderedQueryable<TEntity> AddSortDescending(IOrderedQueryable<TEntity> query, string propertyName, bool isFirstSort);
+
+        /// <summary>
+        /// Abstract method for adding a ascending sort to a repository search query
+        /// </summary>
+        /// <param name="query">The query instance</param>
+        /// <param name="propertyName">Property name to add</param>
+        /// <param name="isFirstSort">Is this the first sort call to be added?</param>
+        /// <returns>The updated query</returns>
         protected abstract IOrderedQueryable<TEntity> AddSortAscending(IOrderedQueryable<TEntity> query, string propertyName, bool isFirstSort);
 
+        /// <summary>
+        /// Add multiple sorts to a repository search query
+        /// </summary>
+        /// <param name="search">The search request</param>
+        /// <param name="query">The query instance to update</param>
+        /// <returns>The updated query</returns>
+        /// <exception cref="ArgumentNullException"></exception>
         protected virtual IQueryable<TEntity> AddSorts(Search search, IQueryable<TEntity> query)
         {
             if (search is null)
@@ -197,21 +246,63 @@ namespace Benday.EfCore.SqlServer
             return whereClausePredicate;
         }
 
+        /// <summary>
+        /// Template method that allows custom logic before a search is executed
+        /// </summary>
+        /// <param name="query"></param>
+        /// <param name="search"></param>
+        /// <returns></returns>
         protected virtual IQueryable<TEntity> BeforeSearch(IQueryable<TEntity> query, Search search)
         {
             return query;
         }
 
+
+        /// <summary>
+        /// Abstract method to get an EF Core query predicate for processing a 'does not contain' operation
+        /// </summary>
+        /// <param name="arg">Search argument definition</param>
+        /// <returns>The EF Core query predicate</returns>
         protected abstract Expression<Func<TEntity, bool>> GetPredicateForDoesNotContain(
             SearchArgument arg);
+
+        /// <summary>
+        /// Abstract method to get an EF Core query predicate for processing a 'not equal' operation
+        /// </summary>
+        /// <param name="arg">Search argument definition</param>
+        /// <returns>The EF Core query predicate</returns>
         protected abstract Expression<Func<TEntity, bool>> GetPredicateForIsNotEqualTo(
             SearchArgument arg);
+
+        /// <summary>
+        /// Abstract method to get an EF Core query predicate for processing an 'equals' operation
+        /// </summary>
+        /// <param name="arg">Search argument definition</param>
+        /// <returns>The EF Core query predicate</returns>
         protected abstract Expression<Func<TEntity, bool>> GetPredicateForEquals(
             SearchArgument arg);
+
+        /// <summary>
+        /// Abstract method to get an EF Core query predicate for processing a 'ends with' operation
+        /// </summary>
+        /// <param name="arg">Search argument definition</param>
+        /// <returns>The EF Core query predicate</returns>
         protected abstract Expression<Func<TEntity, bool>> GetPredicateForEndsWith(
             SearchArgument arg);
+
+        /// <summary>
+        /// Abstract method to get an EF Core query predicate for processing a 'starts with' operation
+        /// </summary>
+        /// <param name="arg">Search argument definition</param>
+        /// <returns>The EF Core query predicate</returns>
         protected abstract Expression<Func<TEntity, bool>> GetPredicateForStartsWith(
             SearchArgument arg);
+
+        /// <summary>
+        /// Abstract method to get an EF Core query predicate for processing a 'contains' operation
+        /// </summary>
+        /// <param name="arg">Search argument definition</param>
+        /// <returns>The EF Core query predicate</returns>
         protected abstract Expression<Func<TEntity, bool>> GetPredicateForContains(
             SearchArgument arg);
     }
