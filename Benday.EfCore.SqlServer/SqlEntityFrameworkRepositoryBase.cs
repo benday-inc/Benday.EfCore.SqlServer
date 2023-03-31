@@ -4,6 +4,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Benday.EfCore.SqlServer
 {
+    /// <summary>
+    /// Base class implementation of the repository pattern for an EF Core entity data type stored in SQL Server.
+    /// This provides standardized access to the DbContext and implements IDispoable.
+    /// </summary>
+    /// <typeparam name="TEntity">Entity data type managed by this repository implementation. Must be an instance of IInt32Identity.</typeparam>
+    /// <typeparam name="TDbContext">EF Core DbContext data type that manages this entity</typeparam>
     public abstract class SqlEntityFrameworkRepositoryBase<TEntity, TDbContext> :
         IDisposable where TEntity : class, IEntityBase
         where TDbContext : DbContext
@@ -34,8 +40,16 @@ namespace Benday.EfCore.SqlServer
             _isDisposed = true;
         }
 
+        /// <summary>
+        /// The instance of EF Core DbContext used by the repository.
+        /// </summary>
         protected TDbContext Context { get; }
 
+        /// <summary>
+        /// Verifies that an object is attached to the DbContext instance and attaches it if necessary.
+        /// </summary>
+        /// <param name="dbset">DbSet instance that should contain this entity</param>
+        /// <param name="item">Entity instance to verify is attached</param>
         protected void VerifyItemIsAddedOrAttachedToDbSet(DbSet<TEntity> dbset, TEntity item)
         {
             if (item == null)
