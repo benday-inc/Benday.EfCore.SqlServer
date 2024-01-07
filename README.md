@@ -1,6 +1,6 @@
 # Benday.EfCore.SqlServer
 
-A collection of classes for supporting the domain model pattern in .NET Core.
+A collection of classes for supporting the domain model pattern and repository pattern in .NET Core using Entity Framework Core.
 
 ## About
 
