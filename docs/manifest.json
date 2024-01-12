@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "/Users/benday/code/benday-inc/Benday.EfCore.SqlServer/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -8,8 +7,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.DependentEntityCollection-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html",
-          "hash": "Tw31fbDlt05tsgigaIwFe+UqBDOWAkj3sHXRQw98oA0="
+          "relative_path": "api/Benday.EfCore.SqlServer.DependentEntityCollection-1.html"
         }
       },
       "version": ""
@@ -19,8 +17,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.IDependentEntityCollection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.IDependentEntityCollection.html",
-          "hash": "RsJMPn+/ljP1Yv8LYbm2dCTfG3cDj2kjXNQvxnvKHjM="
+          "relative_path": "api/Benday.EfCore.SqlServer.IDependentEntityCollection.html"
         }
       },
       "version": ""
@@ -30,8 +27,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.IEntityBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.IEntityBase.html",
-          "hash": "+EMQSPm3bydl+r1RuBJrhNckySrUEygD6Xx5xjADtBw="
+          "relative_path": "api/Benday.EfCore.SqlServer.IEntityBase.html"
         }
       },
       "version": ""
@@ -41,8 +37,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.IRepository-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.IRepository-1.html",
-          "hash": "w+Hc6mbLZoxvPG7Bc++Z+5cqZqnYVlJpbKq2ohAu1E4="
+          "relative_path": "api/Benday.EfCore.SqlServer.IRepository-1.html"
         }
       },
       "version": ""
@@ -52,8 +47,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.ISearchableRepository-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.ISearchableRepository-1.html",
-          "hash": "6z6hPROlvZstYRbBcMxUVJ5UrNVM+bjwNrErXLQAzqI="
+          "relative_path": "api/Benday.EfCore.SqlServer.ISearchableRepository-1.html"
         }
       },
       "version": ""
@@ -63,8 +57,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.LinqPredicateExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.LinqPredicateExtensions.html",
-          "hash": "9N8F/avpe0fK3LLBg8SlC2o6baQl5D5htUTAsVsrkaU="
+          "relative_path": "api/Benday.EfCore.SqlServer.LinqPredicateExtensions.html"
         }
       },
       "version": ""
@@ -74,8 +67,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html",
-          "hash": "tk7mvTj6tDDOIeZklX+ozLjp40GBXmGrtTpQ0rYHBe0="
+          "relative_path": "api/Benday.EfCore.SqlServer.ParameterSubstitutionVisitor.html"
         }
       },
       "version": ""
@@ -85,8 +77,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html",
-          "hash": "KVnJgiKLA4ecwuxTJ8k7AvpCxXVUIsvm6Z44a2YpSmQ="
+          "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkCrudRepositoryBase-2.html"
         }
       },
       "version": ""
@@ -96,8 +87,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html",
-          "hash": "YYVDbSDOANt4R0BNeu0C5RctATAYceVSsCusczs9cRw="
+          "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkRepositoryBase-2.html"
         }
       },
       "version": ""
@@ -107,8 +97,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html",
-          "hash": "UrP04vxaUOVymErWDqYOxpKgkD5+4GnQILgzV21Rh9k="
+          "relative_path": "api/Benday.EfCore.SqlServer.SqlEntityFrameworkSearchableRepositoryBase-2.html"
         }
       },
       "version": ""
@@ -118,8 +107,7 @@
       "source_relative_path": "api/Benday.EfCore.SqlServer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Benday.EfCore.SqlServer.html",
-          "hash": "KkOfoU4bNrXBWvT3jEmNfrI9PfcWzxWT9EkfppCPW6k="
+          "relative_path": "api/Benday.EfCore.SqlServer.html"
         }
       },
       "version": ""
@@ -129,8 +117,7 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "wTQHtgTW/2ZykFh9QZl4gL+KSHGdlLspWQC8Lna4B80="
+          "relative_path": "api/index.html"
         }
       },
       "version": ""
@@ -140,8 +127,10 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "CDnC7I4IA5XcM8xKocnXJJ8Ya4ZrzHVJd0JzaGb/x2U="
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -151,8 +140,7 @@
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "u8ZB2iy3Yn9duApCY61siIYxu+3DUtV/YidzcDA2vq8="
+          "relative_path": "articles/intro.html"
         }
       },
       "version": ""
@@ -162,8 +150,10 @@
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
       "version": ""
@@ -179,15 +169,11 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "eC/pyy2RF1WQk9dGcXrHG7tGkoub9akEXAhlq9DowpI="
+          "relative_path": "index.html"
         }
       },
       "version": ""
@@ -217,14 +203,15 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"

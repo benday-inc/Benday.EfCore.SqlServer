@@ -10,7 +10,7 @@ namespace Benday.EfCore.SqlServer
     /// Collection of dependent child entities. Primarily used for triggering logic
     /// before save and after save events.
     /// </summary>
-    /// <typeparam name="T">Data type for the entities</typeparam>
+    /// <typeparam name="T">Data type for entities</typeparam>
     public class DependentEntityCollection<T> :
         IDependentEntityCollection where T : class, IEntityBase
     {
