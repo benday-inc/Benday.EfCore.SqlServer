@@ -26,7 +26,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Benday.Common\Benday.Common\Benday.Common.csproj" />
+    <!--<ProjectReference Include="..\..\Benday.Common\Benday.Common\Benday.Common.csproj" />-->
+    <PackageReference Include="Benday.Common" Version="9.0.0-alpha" />
   </ItemGroup>
   <ItemGroup>
     <!--<PackageReference Include="Benday.Common" Version="8.*" />-->
@@ -34,6 +35,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.*" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Benday.Repositories\Benday.Repositories.csproj" />
+    <!--<ProjectReference Include="..\Benday.Repositories\Benday.Repositories.csproj" />-->
+    <PackageReference Include="Benday.Repositories" Version="1.0.0-alpha" />
   </ItemGroup>
 </Project>
