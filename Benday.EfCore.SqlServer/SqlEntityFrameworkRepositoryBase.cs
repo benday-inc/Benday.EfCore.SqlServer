@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+
+using Benday.Repositories;
 
 using Microsoft.EntityFrameworkCore;
 
@@ -10,9 +14,10 @@ namespace Benday.EfCore.SqlServer
     /// </summary>
     /// <typeparam name="TEntity">Entity data type managed by this repository implementation. Must be an instance of IInt32Identity.</typeparam>
     /// <typeparam name="TDbContext">EF Core DbContext data type that manages this entity</typeparam>
-    public abstract class SqlEntityFrameworkRepositoryBase<TEntity, TDbContext> :
-        IDisposable where TEntity : class, IEntityBase
+    public abstract class SqlEntityFrameworkRepositoryBase<TEntity, TDbContext, TIdentity> :
+        IDisposable where TEntity : class, IEntityBase<TIdentity>
         where TDbContext : DbContext
+        where TIdentity : IComparable<TIdentity>
     {
         protected SqlEntityFrameworkRepositoryBase(
             TDbContext context)
@@ -58,7 +63,7 @@ namespace Benday.EfCore.SqlServer
             }
             else
             {
-                if (item.Id == 0)
+                if (Comparer<TIdentity>.Equals(item.Id, default(TIdentity)) == true)
                 {
                     dbset.Add(item);
                 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 
 using Benday.Common;
+using Benday.Repositories;
 
 using Microsoft.EntityFrameworkCore;
 
@@ -15,10 +16,11 @@ namespace Benday.EfCore.SqlServer
     /// </summary>
     /// <typeparam name="TEntity">Entity data type managed by this repository implementation. Must be an instance of IInt32Identity.</typeparam>
     /// <typeparam name="TDbContext">EF Core DbContext data type that manages this entity</typeparam>
-    public abstract class SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext> :
-        SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext>, ISearchableRepository<TEntity>
-        where TEntity : class, IEntityBase
+    public abstract class SqlEntityFrameworkSearchableRepositoryBase<TEntity, TDbContext, TIdentity> :
+        SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext, TIdentity>, ISearchableRepository<TEntity, TIdentity>
+        where TEntity : class, IEntityBase<TIdentity>
         where TDbContext : DbContext
+        where TIdentity : IComparable<TIdentity>
     {
         /// <summary>
         /// Constructor

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Benday.EfCore.SqlServer.TestApi
 {
     public class SqlPersonRepository :
-        SqlEntityFrameworkSearchableRepositoryBase<Person, TestDbContext>
+        SqlEntityFrameworkSearchableRepositoryBase<Person, TestDbContext, int>
     {
         public SqlPersonRepository(TestDbContext context) : base(context)
         {

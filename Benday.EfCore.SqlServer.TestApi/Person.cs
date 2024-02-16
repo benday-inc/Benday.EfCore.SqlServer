@@ -1,11 +1,14 @@
-﻿using System.Collections.Generic;
+﻿
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
+using Benday.Repositories;
 
 namespace Benday.EfCore.SqlServer.TestApi
 {
     [Table("Person")]
-    public class Person : IEntityBase
+    public class Person : IEntityBase<int>
     {
         public Person()
         {
@@ -27,11 +30,6 @@ namespace Benday.EfCore.SqlServer.TestApi
         public bool IsMarkedForDelete
         {
             get; set;
-        }
-
-        public IList<IDependentEntityCollection> GetDependentEntities()
-        {
-            return null;
         }
     }
 }

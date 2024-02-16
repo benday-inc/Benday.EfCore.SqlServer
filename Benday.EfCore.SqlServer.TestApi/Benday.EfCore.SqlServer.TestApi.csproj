@@ -4,7 +4,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Benday.Common" Version="8.0.0" />
+    <!--<PackageReference Include="Benday.Common" Version="8.0.0" />-->
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -15,6 +15,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Benday.Common\Benday.Common\Benday.Common.csproj" />
     <ProjectReference Include="..\Benday.EfCore.SqlServer\Benday.EfCore.SqlServer.csproj" />
   </ItemGroup>
 </Project>

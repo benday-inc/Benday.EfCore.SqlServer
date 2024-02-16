@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using Benday.Repositories;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Benday.EfCore.SqlServer
@@ -11,8 +13,10 @@ namespace Benday.EfCore.SqlServer
     /// before save and after save events.
     /// </summary>
     /// <typeparam name="T">Data type for the entities</typeparam>
-    public class DependentEntityCollection<T> :
-        IDependentEntityCollection where T : class, IEntityBase
+    public class DependentEntityCollection<T, TIdentity> :
+        IDependentEntityCollection 
+        where T : class, IEntityBase<TIdentity>
+        where TIdentity : IComparable<TIdentity>
     {
         private readonly IList<T> _entities;
 
@@ -31,14 +35,26 @@ namespace Benday.EfCore.SqlServer
         /// entities that are marked for delete and issues a Remove() call on the data context.
         /// </summary>
         /// <param name="dbContext">EF Core DbContext for the save operation</param>
-        public void BeforeSave(DbContext dbContext)
+        public void BeforeSave(object? context)
         {
-            foreach (var entity in _entities)
+            if (context == null)
             {
-                if (entity.IsMarkedForDelete == true)
+                return;
+            }
+            else
+            {
+                if (context is DbContext)
                 {
-                    RemoveFromDbSet(dbContext, entity);
-                }
+                    var dbContext = (DbContext)context;
+
+                    foreach (var entity in _entities)
+                    {
+                        if (entity.IsMarkedForDelete == true)
+                        {
+                            RemoveFromDbSet(dbContext, entity);
+                        }
+                    }
+                }                
             }
         }
 

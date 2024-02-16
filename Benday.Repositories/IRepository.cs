@@ -1,14 +1,17 @@
 ﻿using System.Collections.Generic;
+using System.Security.Principal;
 
 using Benday.Common;
 
-namespace Benday.EfCore.SqlServer
+namespace Benday.Repositories
 {
     /// <summary>
     /// Interface for basic repository operations
     /// </summary>
     /// <typeparam name="T">Entity data type managed by this repository implementation. Must be an instance of IInt32Identity.</typeparam>
-    public interface IRepository<T> where T : IInt32Identity
+    public interface IRepository<T, TIdentity> 
+        where T : IIdentity<TIdentity> 
+        where TIdentity : IComparable<TIdentity>
     {
         /// <summary>
         /// Get all records
@@ -30,7 +33,7 @@ namespace Benday.EfCore.SqlServer
         /// </summary>
         /// <param name="id">Identity value</param>
         /// <returns>The matching instance of the entity or null if not found.</returns>
-        T? GetById(int id);
+        T? GetById(TIdentity id);
         
         /// <summary>
         /// Save or update the entity and any children.

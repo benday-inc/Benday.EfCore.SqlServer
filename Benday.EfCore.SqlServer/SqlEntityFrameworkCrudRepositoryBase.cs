@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Benday.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
@@ -13,10 +14,11 @@ namespace Benday.EfCore.SqlServer
     /// </summary>
     /// <typeparam name="TEntity">Entity data type managed by this repository implementation. Must be an instance of IInt32Identity.</typeparam>
     /// <typeparam name="TDbContext">EF Core DbContext data type that manages this entity</typeparam>
-    public abstract class SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext> :
-        SqlEntityFrameworkRepositoryBase<TEntity, TDbContext>, IRepository<TEntity>
-        where TEntity : class, IEntityBase
+    public abstract class SqlEntityFrameworkCrudRepositoryBase<TEntity, TDbContext, TIdentity> :
+        SqlEntityFrameworkRepositoryBase<TEntity, TDbContext, TIdentity>, IRepository<TEntity, TIdentity>
+        where TEntity : class, IEntityBase<TIdentity>
         where TDbContext : DbContext
+        where TIdentity : IComparable<TIdentity>
     {
         /// <summary>
         /// Constructor
@@ -181,10 +183,10 @@ namespace Benday.EfCore.SqlServer
         /// </summary>
         /// <param name="id">Entity Id to retrieve</param>
         /// <returns>The matching entity or null if not found</returns>
-        public virtual TEntity? GetById(int id)
+        public virtual TEntity? GetById(TIdentity id)
         {
             var query = from temp in EntityDbSet
-                        where temp.Id == id
+                        where Comparer<TIdentity>.Equals(temp.Id, id) == true
                         select temp;
 
             query = AddIncludes(query);
@@ -202,7 +204,7 @@ namespace Benday.EfCore.SqlServer
         /// <param name="id">Entity Id to retrieve</param>
         /// <returns>Original or modified query to use for the GetById command</returns>
         [SuppressMessage("csharp", "IDE0060")]
-        private IQueryable<TEntity> BeforeGetById(IQueryable<TEntity> query, int id)
+        private IQueryable<TEntity> BeforeGetById(IQueryable<TEntity> query, TIdentity id)
         {
             return query;
         }
@@ -235,20 +237,24 @@ namespace Benday.EfCore.SqlServer
 
         private void AfterSaveOnDependentEntities(TEntity saveThis)
         {
-            var dependentEntityCollections = saveThis.GetDependentEntities();
+            if (saveThis is IEntityBaseWithDependents<TIdentity>)
+            {
+                var dependentEntityCollections = ((IEntityBaseWithDependents<TIdentity>)saveThis).GetDependentEntities();
 
-            if (dependentEntityCollections == null ||
-                dependentEntityCollections.Count == 0)
-            {
-                return;
-            }
-            else
-            {
-                foreach (var item in dependentEntityCollections)
+                if (dependentEntityCollections == null ||
+                    dependentEntityCollections.Count == 0)
                 {
-                    item.AfterSave();
+                    return;
+                }
+                else
+                {
+                    foreach (var item in dependentEntityCollections)
+                    {
+                        item.AfterSave();
+                    }
                 }
             }
+            
         }
 
         /// <summary>
@@ -260,20 +266,18 @@ namespace Benday.EfCore.SqlServer
         protected virtual void BeforeSaveOnDependentEntities(
             TEntity saveThis)
         {
-            var dependentEntityCollections = saveThis.GetDependentEntities();
-
-            if (dependentEntityCollections == null ||
-                dependentEntityCollections.Count == 0)
+            if (saveThis is IEntityBaseWithDependents<TIdentity>)
             {
-                return;
-            }
-            else
-            {
-                foreach (var item in dependentEntityCollections)
+                var dependentEntities = ((IEntityBaseWithDependents<TIdentity>)saveThis).GetDependentEntities();
+            
+                if (dependentEntities != null && dependentEntities.Count > 0)
                 {
-                    item.BeforeSave(Context);
+                    foreach (var item in dependentEntities)
+                    {
+                        item.BeforeSave(Context);
+                    }
                 }
-            }
+            }            
         }
 
         /// <summary>
